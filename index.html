@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>CashUp</title>
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<div class="topbar wow fadeInDown" data-wow-delay="0s">
+	<div class="main-width clear">
+		<a href="index.html" class="logo"></a>
+		<a class="nav-resize"></a>
+		<div class="right">
+			<div class="nav">
+				<ul>
+					<li><a href="#team">О нас</a></li>
+					<li><a href="#tarifs">Виды подписок</a></li>
+					<li><a href="#benefits">Преимущества</a></li>
+					<li><a href="#reviews">Отзывы</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+				</ul>
+			</div>
+			<a href="https://vk.com/cshup" class="link-vk" target="_blank"></a>
+		</div>
+	</div>	
+</div>
+	
+<div class="header">
+	<div class="main-width">
+		<div class="player wow fadeInUp" data-wow-delay="0.3s"></div>
+		<div class="welcome wow fadeInUp" data-wow-delay="0.1s">
+			<h1>Прогнозы с 80%<br>проходимостью</h1>
+			<div class="desc">Мы выкупаем прогнозы лучших каперов, после чего команда аналитиков делает свой анализ, и вы получаете надежные прогнозы</div>
+		</div>
+		<div class="calc wow fadeInUp" data-wow-delay="0.2s">
+			<div class="heading">Рассчитайте вашу возможную прибыль:</div>
+			<div class="list clear">
+				<div class="item"><input type="text" class="input" rel="number" placeholder="Сумма банка"></div>
+				<div class="item">
+					<div class="tarif">
+						<div class="current none">Тариф</div>
+						<div class="dropdown">
+							<a class="item" data-coefficient="2">Vip</a>
+							<a class="item" data-coefficient="3">Premium</a>
+						</div>
+					</div>
+				</div>
+				<div class="item"><a class="btn-calc">Рассчитать</a></div>
+			</div>			
+			<div class="win-sum">
+				<div class="heading">Выигрыш по тарифу может составить:</div>
+				<div class="sum"><span class="num">0</span> <span class="ruble">Р</span></div>
+				<div class="sep"></div>
+				<a href="#tarifs" rel="go" class="btn-pick">Выбрать тариф</a>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<div class="section tarifs" id="tarifs">
+	<div class="main-width">
+		<div class="page-title clear wow fadeInUp" data-wow-delay="0s">
+			<div class="left">Подписки</div>
+		</div>	
+		<div class="list clear wow fadeInUp" data-wow-delay="0.1s">
+			<div class="item vip">
+				<div class="image"><img src="images/vip.png" alt=""><div class="days">НА МЕСЯЦ</div></div>
+				<div class="price">2000 Р<span class="discount">4900 Р</span></div>
+				<div class="desc counter">До конца скидки:  <span class="c_days"></span> д. <span class="c_hours"></span> ч.</div>
+				<div class="desc">
+					<ul>
+						<li>5 прогнозов в день</li>
+						<li>Проходимость: 80%</li>
+					</ul>
+				</div>
+				<a class="btn-border" data-type="vip">Оплатить</a>
+			</div>
+			<div class="item start">
+				<div class="image"><img src="images/premium.png" alt=""><div class="days">НА МЕСЯЦ</div></div>
+				<div class="price">9990 Р<span class="discount">19900 Р</span></div>
+				<div class="desc counter">До конца скидки:  <span class="c_days"></span> д. <span class="c_hours"></span> ч.</div>
+				<div class="desc">
+					<ul>
+						<li>Более 10 прогноз в день</li>
+						<li>Проходимость: 90%</li>
+					</ul>
+				</div>
+				<a class="btn-border" data-type="inside">Оплатить</a>
+			</div>
+		</div>
+	</div>	
+</div>
+	
+<div class="section" id="benefits">
+	<div class="main-width">
+		<div class="page-title clear wow fadeInUp" data-wow-delay="0s">
+			<div class="left">Преимущества</div>
+		</div>
+		<div class="grid clear">
+			<div class="col steps wow fadeInUp" data-wow-delay="0.1s" id="steps">
+				<div class="title">Порядок <span>работы</span></div>
+				<div class="list">
+					<div class="item">
+						<div class="heading">1. Покупка тарифа.</div>
+						<div class="desc">
+							- Купите один из восьми тарифов на сайте.<br>
+							Успешно оплатите выбранный тариф.
+						</div>
+					</div>
+					<div class="item">
+						<div class="heading">2. Добавление в чат-рассылку.</div>
+						<div class="desc">
+							- Наши сотрудники добавят Вас в специальную рассылку с прогнозами и аналитикой.
+						</div>
+					</div>
+					<div class="item">
+						<div class="heading">3. Умножение капитала.</div>
+						<div class="desc">
+							- Получайте прибыль от ставок с вероятностью выигрыша 80%.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col team wow fadeInUp" data-wow-delay="0.2s" id="team">
+				<div class="title">Команда <span>PNS PrognoziNaSport</span></div>
+				<div class="desc">
+					Команда экспертов “PNS PrognoziNaSport” - это профессиональные спортивыные аналитики с опытом работы более 5 лет. Проходимость каждого из капперов - более 80%. Наша команда поможет вам зарабатывать с первого дня сотрудничества. Наши аналитики будут давать вам от 7 до 12 прогнозов в день, проходимость которых в среднем 8 из 10. Это даст вам возможность увеличивать ваш банк на сумму от 80%.
+				</div>
+				<a href="#tarifs" rel="go" class="btn-border">Выбрать тариф</a>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="js-box">
+	<div class="section stat wow fadeInUp" data-wow-delay="0s">
+		<div class="main-width">
+			<div class="page-title clear">
+				<div class="left">Итого прибыль составила:</div>
+				<div class="right">27.08 - 02.09</div>
+			</div>
+			<div class="info clear">
+				<div class="left">214 120<span class="ruble">Р</span></div>
+				<div class="right">
+					<div class="item plus">79</div>
+					<div class="item minus">12</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section reviews" id="free">
+	<div class="main-width">
+		<div class="page-title clear wow fadeInUp" data-wow-delay="0s">
+			<div class="left">Бесплатный чат</div>
+		</div>
+		<div class="freechat wow fadeInUp" data-wow-delay="0.2s">
+			<div class="title">БЕСПЛАТНЫЙ ЧАТ.</div>
+			<div class="desc">Присоедниняйся к нашему бесплатному чату прямо сейчас и удостоверься в качестве нашей работы.</div>
+			<a href="free.html" class="btn-border btn-big-sun" target="_blank">Присоединиться</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+	
+<div class="section reviews" id="reviews">
+	<div class="main-width">
+		<div class="page-title clear wow fadeInUp" data-wow-delay="0s">
+			<div class="left">Отзывы</div>
+		</div>
+		<div class="image wow fadeInUp" data-wow-delay="0.1s"><div class="macbook"></div></div>
+		<div class="info wow fadeInUp" data-wow-delay="0.2s">
+			<div class="title">ПИШИ, КАК ЕСТЬ.<br>ЭТО ВАЖНО.</div>
+			<div class="desc">Оставьте отзыв о нашей работе. Благодаря вашим комментариям мы становимся лучше.</div>
+			<a href="https://vk.com/topic-166593764_38545707" class="btn-border" target="_blank">Оставить отзыв</a>
+		</div>
+		<div class="clear"></div>
+		<form style="display: none;" class="horizontal-form clear wow fadeInUp" data-wow-delay="0.3s" id="feedback">
+			<div class="page-title clear">
+				<div class="left">Обратная связь</div>
+			</div>
+			<div class="list">
+				<div class="col">
+					<div class="item item-name"><input type="text" class="input" placeholder="Имя"></div>
+					<div class="item item-email"><input type="text" class="input" placeholder="E-mail"></div>	
+				</div>
+				<div class="col">
+					<textarea class="textarea" placeholder="Комментарий"></textarea>
+				</div>
+				<button type="submit" class="btn-send">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+	
+<div class="footer wow fadeInUp" data-wow-delay="0s" id="contacts">
+	<div class="main-width clear">
+		<div class="col">
+			<ul class="fnav">
+				<li><a href="#team">О нас</a></li>
+				<li><a href="#steps">Порядок работы</a></li>
+				<li><a href="#team">Команда</a></li>
+				<li><a href="#reviews">Отзывы</a></li>
+				<li><a href="#contacts">Контакты</a></li>
+			</ul>
+			<ul class="fnav">
+				<li><a href="#tarifs">Виды подписок</a></li>
+			</ul>
+			<div class="clear"></div>
+			<div class="copyright">PNS PrognoziNaSport ® 2018-2019. Все права защищены.</div>
+		</div>
+		<div class="col">
+			<a href="index.html" class="logo"></a>
+			<div class="contacts">
+				<a href="mailto:info@cashup.bet">info@prognozinasport.ru</a>
+				<div class="desc">E-mail для сязи с нами</div>
+			</div>
+		</div>
+	</div>	
+</div>
+	
+<div class="mobile-nav">
+	<div class="container">
+		<div class="logo"></div>
+		<a class="close"></a>
+		<ul>
+
+			<li><a href="https://vk.com/cshup">Группа VK</a></li>
+			<li><a href="#team">О нас</a></li>
+			<li><a href="#tarifs">Тарифы</a></li>
+			<li><a href="#benefits">Преимущества</a></li>
+			<li><a href="#reviews">Отзывы</a></li>
+			<li><a href="#contacts">Контакты</a></li>
+		</ul>	
+		<div class="bottom">
+			
+			<a href="#" class="link-vk"></a>
+			Все права защищены. ® 2018<br>
+			PrognoziNaSport.ru
+		</div>
+	</div>
+</div>
+<div class="fade"></div>
+	
+<div class="overlay">
+	<div class="popup" id="order">
+		<a class="close"></a>
+		<div class="heading">-</div>
+		<form class="form">
+			<div class="item"><input name="i_tg" type="text" class="input" placeholder="Аккаунт Telegram"></div>
+			<div class="item"><input name="i_em" type="text" class="input" placeholder="E-mail"></div>
+			<div class="price">0 руб.</div>
+			<input type="hidden" name="item_id">
+			<button type="submit" class="btn-send" onclick="return false">Оплатить</button>
+		</form>
+		<div class="desc">
+			<div class="text">В течении нескольких часов с вами свяжутся и расскажут дальнейший план действий.  В случае вопросов пишите в официальную <a href="https://vk.com/im?sel=-166593764" target="_blank">группу VK</a></div>
+		</div>
+	</div>	
+</div>
+	
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
